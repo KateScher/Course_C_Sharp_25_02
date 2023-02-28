@@ -11,5 +11,3 @@ int b = int.Parse(s_b);
 
 if (a > b) Console.WriteLine("a = " + a + "," + " b = " + b + ", a > b");
 else Console.WriteLine("a = " + a + "," + " b = " + b + ", a < b");
-
-
