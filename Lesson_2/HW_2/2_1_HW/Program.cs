@@ -5,7 +5,7 @@
 int TakeNum(int num)
 {
     Console.WriteLine(num);
-    return ((num % 100) /10);
+    return ((num % 100) / 10);
 }
 
 int result = TakeNum(new Random().Next(100, 1000));
