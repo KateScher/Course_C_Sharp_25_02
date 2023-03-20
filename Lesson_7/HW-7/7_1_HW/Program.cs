@@ -14,7 +14,7 @@ for (int i = 0; i < m; i++)
     for (int j = 0; j < n; j++)
     {
         arr [i,j] = (double)rand.Next(-100,100)/10;
-        Console.Write(arr[i,j] + "  ");
+        Console.Write(arr[i,j] + "\t");
     }
     Console.WriteLine();
 }
